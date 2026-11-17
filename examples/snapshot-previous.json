@@ -1,0 +1,65 @@
+{
+  "taken_at": "2026-11-17T10:00:00+05:30",
+  "issues": {
+    "SHOP-101": {
+      "summary": "Add UPI refund webhook handler",
+      "status": "To Do",
+      "assignee": "Asha Rao"
+    },
+    "SHOP-102": {
+      "summary": "Retry failed payment captures",
+      "status": "In Progress",
+      "assignee": "Asha Rao"
+    },
+    "SHOP-103": {
+      "summary": "Payment receipt email template",
+      "status": "To Do",
+      "assignee": "Asha Rao"
+    },
+    "SHOP-104": {
+      "summary": "Reconcile settlement report with orders",
+      "status": "To Do",
+      "assignee": "Asha Rao"
+    },
+    "SHOP-105": {
+      "summary": "Export orders as CSV",
+      "status": "To Do",
+      "assignee": "Rohan Mehta"
+    },
+    "SHOP-110": {
+      "summary": "Product page image carousel lags on mobile",
+      "status": "In Review",
+      "assignee": "Rohan Mehta"
+    },
+    "SHOP-111": {
+      "summary": "Checkout button misaligned on Safari",
+      "status": "In Review",
+      "assignee": "Rohan Mehta"
+    },
+    "SHOP-112": {
+      "summary": "Wishlist API returns 500 for guest users",
+      "status": "In Progress",
+      "assignee": "Dev Patil"
+    },
+    "SHOP-113": {
+      "summary": "Add Redis cache for product listing",
+      "status": "In Progress",
+      "assignee": "Asha Rao"
+    },
+    "SHOP-114": {
+      "summary": "Regression suite for checkout flow",
+      "status": "To Do",
+      "assignee": null
+    },
+    "SHOP-115": {
+      "summary": "Rate-limit the login endpoint",
+      "status": "To Do",
+      "assignee": null
+    },
+    "SHOP-117": {
+      "summary": "Reduce Docker image size",
+      "status": "In Progress",
+      "assignee": "Dev Patil"
+    }
+  }
+}

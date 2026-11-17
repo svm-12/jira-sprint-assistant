@@ -1,0 +1,68 @@
+# Copy to team-map.yaml and fill in your own values.
+# account_id is the Jira Cloud accountId (Profile URL or REST API /myself),
+# not an email address: Jira Cloud only assigns issues by accountId.
+
+jira:
+  project_key: SHOP
+  board_id: 12
+  # sprint_id: 345          # optional; default is the currently open sprint
+  story_points_field: customfield_10016   # varies per Jira site
+
+rules:
+  stale_after_days: 3
+  blocked_statuses: [Blocked, On Hold]
+  review_statuses: [In Review, Testing]
+  never_auto_assign_labels: [security, needs-manager-review]
+
+approval:
+  approvers: [Priya Nair]        # names allowed to pass --approved-by
+  audit_log: output/audit.jsonl
+  plan_max_age_hours: 24
+
+team:
+  - name: Asha Rao
+    account_id: acc-asha
+    skills: [payments, api, python]
+    components: [Payments, API]
+    labels: [payments]
+    max_in_progress: 2
+    capacity_points: 13
+    backup_account_id: acc-dev
+
+  - name: Rohan Mehta
+    account_id: acc-rohan
+    skills: [react, frontend, ui]
+    components: [Web]
+    labels: [ui]
+    max_in_progress: 2
+    capacity_points: 10
+    backup_account_id: acc-ira
+
+  - name: Meera Iyer
+    account_id: acc-meera
+    skills: [testing, qa, automation, regression]
+    components: [QA]
+    labels: [testing]
+    max_in_progress: 2
+    capacity_points: 8
+    unavailable:
+      - {from: 2026-11-18, to: 2026-11-20}
+
+  - name: Dev Patil
+    account_id: acc-dev
+    skills: [api, python, infra, docker, testing]
+    components: [API, Infra]
+    labels: [infra, payments]
+    max_in_progress: 3
+    capacity_points: 13
+    backup_account_id: acc-asha
+
+  - name: Ira Khan
+    account_id: acc-ira
+    skills: [react, ui, frontend]
+    components: [Web]
+    labels: [ui]
+    max_in_progress: 2
+    capacity_points: 8
+    backup_account_id: acc-rohan
+    allowlisted: false   # new joiner: can be suggested, never auto-assigned

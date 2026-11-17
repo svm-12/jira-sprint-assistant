@@ -1,0 +1,605 @@
+{
+  "_note": "Made-up sample data shaped like Jira Cloud REST v3 responses.",
+  "now": "2026-11-18T10:00:00.000+0530",
+  "sprint": [
+    {
+      "key": "SHOP-101",
+      "fields": {
+        "summary": "Add UPI refund webhook handler",
+        "status": {
+          "name": "In Progress",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-asha",
+          "displayName": "Asha Rao"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "components": [
+          {
+            "name": "Payments"
+          }
+        ],
+        "labels": [
+          "payments"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-17T16:20:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 5
+      }
+    },
+    {
+      "key": "SHOP-102",
+      "fields": {
+        "summary": "Retry failed payment captures",
+        "status": {
+          "name": "In Progress",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-asha",
+          "displayName": "Asha Rao"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Payments"
+          }
+        ],
+        "labels": [
+          "payments"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-12T11:05:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-103",
+      "fields": {
+        "summary": "Payment receipt email template",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-asha",
+          "displayName": "Asha Rao"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "components": [
+          {
+            "name": "Payments"
+          }
+        ],
+        "labels": [
+          "payments",
+          "email"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-10T09:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-104",
+      "fields": {
+        "summary": "Reconcile settlement report with orders",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-asha",
+          "displayName": "Asha Rao"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Payments"
+          }
+        ],
+        "labels": [
+          "payments"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-11T09:30:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 5
+      }
+    },
+    {
+      "key": "SHOP-110",
+      "fields": {
+        "summary": "Product page image carousel lags on mobile",
+        "status": {
+          "name": "In Review",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-rohan",
+          "displayName": "Rohan Mehta"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Web"
+          }
+        ],
+        "labels": [
+          "ui"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-13T18:40:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-111",
+      "fields": {
+        "summary": "Checkout button misaligned on Safari",
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-rohan",
+          "displayName": "Rohan Mehta"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Web"
+          }
+        ],
+        "labels": [
+          "ui"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-14T12:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 1
+      }
+    },
+    {
+      "key": "SHOP-112",
+      "fields": {
+        "summary": "Wishlist API returns 500 for guest users",
+        "status": {
+          "name": "Blocked",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-dev",
+          "displayName": "Dev Patil"
+        },
+        "priority": {
+          "name": "High"
+        },
+        "components": [
+          {
+            "name": "API"
+          }
+        ],
+        "labels": [],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-16T15:10:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-113",
+      "fields": {
+        "summary": "Add Redis cache for product listing",
+        "status": {
+          "name": "In Progress",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-dev",
+          "displayName": "Dev Patil"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "API"
+          }
+        ],
+        "labels": [
+          "infra"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-18T08:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 5
+      }
+    },
+    {
+      "key": "SHOP-114",
+      "fields": {
+        "summary": "Regression suite for checkout flow",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": null,
+        "priority": {
+          "name": "High"
+        },
+        "components": [
+          {
+            "name": "QA"
+          }
+        ],
+        "labels": [
+          "testing"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-17T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 5
+      }
+    },
+    {
+      "key": "SHOP-115",
+      "fields": {
+        "summary": "Rate-limit the login endpoint",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": null,
+        "priority": {
+          "name": "High"
+        },
+        "components": [
+          {
+            "name": "API"
+          }
+        ],
+        "labels": [
+          "security"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-14T10:00:00.000+0530",
+        "duedate": "2026-11-15",
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-116",
+      "fields": {
+        "summary": "Order history pagination",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": null,
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Web"
+          }
+        ],
+        "labels": [
+          "ui"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-17T19:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-117",
+      "fields": {
+        "summary": "Reduce Docker image size",
+        "status": {
+          "name": "In Progress",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-dev",
+          "displayName": "Dev Patil"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "components": [
+          {
+            "name": "Infra"
+          }
+        ],
+        "labels": [
+          "infra"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-17T21:15:00.000+0530",
+        "duedate": null,
+        "customfield_10016": null
+      }
+    }
+  ],
+  "backlog": [
+    {
+      "key": "SHOP-130",
+      "fields": {
+        "summary": "Gift card balance check",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": null,
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Payments"
+          }
+        ],
+        "labels": [
+          "payments"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-09T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 5
+      }
+    },
+    {
+      "key": "SHOP-131",
+      "fields": {
+        "summary": "Improve search relevance",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": null,
+        "priority": {
+          "name": "Low"
+        },
+        "components": [],
+        "labels": [],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-02T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": null
+      }
+    },
+    {
+      "key": "SHOP-132",
+      "fields": {
+        "summary": "Migrate to the new shipping partner API",
+        "status": {
+          "name": "Blocked",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "assignee": null,
+        "priority": {
+          "name": "High"
+        },
+        "components": [
+          {
+            "name": "API"
+          }
+        ],
+        "labels": [
+          "integration"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-08T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 8
+      }
+    },
+    {
+      "key": "SHOP-133",
+      "fields": {
+        "summary": "Dark mode toggle",
+        "status": {
+          "name": "To Do",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-rohan",
+          "displayName": "Rohan Mehta"
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "components": [
+          {
+            "name": "Web"
+          }
+        ],
+        "labels": [
+          "ui"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-15T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    }
+  ],
+  "recently_done": [
+    {
+      "key": "SHOP-090",
+      "fields": {
+        "summary": "Payment gateway timeout handling",
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-asha",
+          "displayName": "Asha Rao"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Payments"
+          }
+        ],
+        "labels": [
+          "payments"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-03T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-091",
+      "fields": {
+        "summary": "Test plan for coupon codes",
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-meera",
+          "displayName": "Meera Iyer"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "QA"
+          }
+        ],
+        "labels": [
+          "testing"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-05T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 2
+      }
+    },
+    {
+      "key": "SHOP-092",
+      "fields": {
+        "summary": "Lazy-load images on listing page",
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-rohan",
+          "displayName": "Rohan Mehta"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "Web"
+          }
+        ],
+        "labels": [
+          "ui"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-06T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 3
+      }
+    },
+    {
+      "key": "SHOP-093",
+      "fields": {
+        "summary": "Smoke tests for checkout",
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done"
+          }
+        },
+        "assignee": {
+          "accountId": "acc-dev",
+          "displayName": "Dev Patil"
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "components": [
+          {
+            "name": "QA"
+          }
+        ],
+        "labels": [
+          "testing"
+        ],
+        "created": "2026-11-04T10:00:00.000+0530",
+        "updated": "2026-11-07T10:00:00.000+0530",
+        "duedate": null,
+        "customfield_10016": 2
+      }
+    }
+  ]
+}
